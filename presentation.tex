@@ -56,9 +56,7 @@
 \usepackage{pgfplots}
 \usepackage{pgf-pie}
 \usepackage{tcolorbox}
-\usepackage{svg}
-\setsvg{inkscape = "C:/Program Files/Inkscape/bin/inkscape.exe"}
-\svgsetup{inkscapepath=svgsubdir}
+\pgfplotsset{compat=1.18} % Fix for warning: running in backwards compatibility mode (unsuitable tick labels; missing features)
 \def\myversion{0.5}
 
 \title[Privacy and Digital Literacy in the Internet of Things]{{\normalsize 22nd International Conference e-Society 2024} \\ Privacy and Digital Literacy in the Internet of Things}
